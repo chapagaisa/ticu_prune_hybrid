@@ -11,13 +11,9 @@ cuda>=12.0
 python==3.10
 pytorch>=2.5.1
 transformers>=4.40.0
-peft>=0.18.1
-bitsandbytes>=0.49.1
-accelerate>=1.12.0
 numpy>=2.2.6
 pandas>=2.3.3
 scikit-learn>=1.7.2
-protobuf
 ```
 
 ### Instructions
