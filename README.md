@@ -1,6 +1,6 @@
 # Prune or Unlearn? A Hybrid Trigger-Invariant Pruning Framework for Backdoor Defense
 
-!\[HTIP](fig/htip_arch.png)
+![HTIP](fig/htip_arch.png)
 
 **HTIP** is a hybrid backdoor defense framework that combines trigger-aware attention-head pruning with trigger-invariant contrastive unlearning. This method removes attention heads that are highly sensitive to trigger perturbations but less important for clean-task performance, then applies TICU-style unlearning to align clean and triggered predictions and representations.
 
